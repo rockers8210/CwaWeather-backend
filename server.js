@@ -142,7 +142,7 @@ app.get("/api/health", (req, res) => {
 });
 
 // 取得高雄天氣預報
-app.get("/api/weather/kaohsiung", getKaohsiungWeather);
+app.get("/api/weather/tainan", getKaohsiungWeather);
 
 // Error handling middleware
 app.use((err, req, res, next) => {
